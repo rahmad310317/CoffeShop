@@ -323,7 +323,7 @@ CREATE TABLE `users` (
 INSERT INTO `users` (`id`, `name`, `email`, `email_verified_at`, `nomor_hp`, `alamat`, `role`, `password`, `remember_token`, `created_at`, `updated_at`) VALUES
 (1, 'Admin', 'admin@gmail.com', NULL, '089529591732', 'krenekan', 1, '$2y$10$v5FwkTfmt1c0QOfhu5E2gOgdGDrSKXx8v1ptr1qivMUmmUU2oo3I.', NULL, '2023-03-03 17:48:54', '2023-03-03 17:48:54'),
 (2, 'Kasir', 'kasir@gmail.com', NULL, '089529591732', 'krenekan', 2, '$2y$10$j8HpA0YL7vaJw1tpNSLdyeKVZVO0TtvDVCrmZzqPMzCI5hPmPtL0O', NULL, '2023-03-03 17:48:55', '2023-03-03 17:48:55'),
-(3, 'user', 'user@gmail.com', NULL, '089529591732', 'yogyakarta', 0, '$2y$10$g05m0wtTEZCzTESTcyrNwO.J1vtB3COiVX6FNyk/zFKLGmMWCAKG.', NULL, '2023-03-03 17:48:55', '2023-03-03 17:48:55');
+(3, 'user', 'user@gmail.com', NULL, '089529591732', 'ciputat', 0, '$2y$10$g05m0wtTEZCzTESTcyrNwO.J1vtB3COiVX6FNyk/zFKLGmMWCAKG.', NULL, '2023-03-03 17:48:55', '2023-03-03 17:48:55');
 
 --
 -- Indexes for dumped tables

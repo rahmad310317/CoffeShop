@@ -37,7 +37,7 @@ class UsersTableSeeder extends Seeder
         'name'	=> 'user',
         'email'	=> 'user@gmail.com',
         'nomor_hp'=> '089529591732',
-        'alamat'=> 'yogyakarta',
+        'alamat'=> 'ciputat',
         'role'=> '0',
         'password'	=> bcrypt('12345678')
         ]);
