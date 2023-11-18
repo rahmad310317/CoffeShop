@@ -43,11 +43,7 @@
                     <div class="mb-3">
                         <label for="harga" class="form-label">harga</label>
                         <input type="text" class="form-control" name="harga" id="harga">
-                    </div>
-                    <div class="mb-3">
-                        <label for="rating" class="form-label">rating</label>
-                        <input type="text" class="form-control" name="rating" id="rating">
-                    </div>
+                    </div>          
                     <div class="mb-3">
                         <label for="gambar" class="form-label">gambar</label>
                         <div class="custom-file">

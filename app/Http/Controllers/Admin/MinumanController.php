@@ -52,7 +52,7 @@ class MinumanController extends Controller
             'name' => 'required',
             'slug' => 'required|unique:menu',
             'harga' => 'required',
-            'gambar' => 'image|file|max:1024',
+            'gambar' => 'nullable|image|mimes:jpeg,png,jpg,gif,svg|max:2048',
         ]);
 
         $minuman['kategori_id'] = '2';
@@ -107,7 +107,7 @@ class MinumanController extends Controller
             'name' => 'required',
             'slug' => 'required',
             'harga' => 'required',
-            'gambar' => 'image|file|max:1024',
+            'gambar' => 'nullable|image|mimes:jpeg,png,jpg,gif,svg|max:2048',
         ]);
 
         $minumanUpdate['kategori_id'] = '2';

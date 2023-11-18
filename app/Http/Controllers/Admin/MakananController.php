@@ -53,7 +53,7 @@ class MakananController extends Controller
             'name' => 'required',
             'slug' => 'required|unique:menu',
             'harga' => 'required',
-            'gambar' => 'image|file|max:1024',
+            'gambar' => 'nullable|image|mimes:jpeg,png,jpg,gif,svg|max:2048',
         ]);
 
         $makanan['kategori_id'] = '1';
@@ -109,7 +109,7 @@ class MakananController extends Controller
             'name' => 'required',
             'slug' => 'required',
             'harga' => 'required',
-            'gambar' => 'image|file|max:1024',
+            'gambar' => 'nullable|image|mimes:jpeg,png,jpg,gif,svg|max:2048',
         ]);
 
         $makananUpdate['kategori_id'] = '2';
